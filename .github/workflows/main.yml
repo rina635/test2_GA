@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: 3.6
       - name: Grab env variables
-        uses: rina635/test2_GA@v1
+        uses: ./.github/workflows@v2
         with:
           envFile: 'prod.env'
           expand: 'true'
