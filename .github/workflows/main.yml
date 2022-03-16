@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: 3.6
       - name: Grab env variables
-        uses: ./.github/workflows@v2
+        uses: ./.github/workflows
         with:
           envFile: 'prod.env'
           expand: 'true'
