@@ -25,4 +25,4 @@ jobs:
       - name: Import environment variables from a file
         id: import-env
         shell: bash
-        run: cat ${{ env.ENV_FILE }} >> $GITHUB_ENV
+        run: cat ${{ dev.env}} >> $GITHUB_ENV
